@@ -1,0 +1,19 @@
+.workout__link {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 28px;
+    text-decoration: none;
+    color: var(--color-primary);
+}
+
+.workout__link:hover {
+    opacity: 0.75;
+}
+
+@media (max-width: 550px) {
+    .workout__link {
+        font-size: 14px;
+        line-height: 20px;
+    }
+}

@@ -1,0 +1,109 @@
+@import '../vendor/normalize';
+@import '../vendor/fonts/fonts';
+
+@import '../blocks/root/root';
+@import '../blocks/root/_theme/root_theme_dark';
+@import '../blocks/main-page/main-page';
+
+
+
+@import '../blocks/header/header';
+@import '../blocks/menu/menu';
+@import '../blocks/menu/_burger/menu_burger';
+@import '../blocks/menu/__list/menu__list';
+@import '../blocks/menu/__list/_burger/menu__list_burger';
+@import '../blocks/menu/__list-item/menu__list-item';
+@import '../blocks/menu/__link/menu__link';
+@import '../blocks/menu/__link/_burger/menu__link_burger';
+
+
+@import '../blocks/introduction/introduction';
+@import '../blocks/introduction/__right-block/introduction__right-block';
+@import '../blocks/introduction/__title/introduction__title';
+@import '../blocks/introduction/__subtitle/introduction__subtitle';
+@import '../blocks/introduction/__button/introduction__button';
+@import '../blocks/introduction/__img/introduction__img';
+@import '../blocks/introduction/__signature-block/introduction__signature-block';
+
+@import '../blocks/bike-fix/bike-fix';
+@import '../blocks/bike-fix/__img/bike-fix__img';
+
+@import '../blocks/quote/quote';
+@import '../blocks/quote/__text-block/quote__text-block';
+@import '../blocks/quote/__img/quote__img';
+@import '../blocks/quote/__title/quote__title';
+@import '../blocks/quote/__author/quote__author';
+@import '../blocks/quote/__field-of-activity/quote__field-of-activity';
+
+@import '../blocks/description/description';
+@import '../blocks/description/__title/description__title';
+@import '../blocks/description/__subtitle/description__subtitle';
+
+@import '../blocks/gallery/gallery';
+@import '../blocks/gallery/__img/gallery__img';
+@import '../blocks/green-ribbon/green-ribbon';
+@import '../blocks/green-ribbon/__img/green-ribbon__img';
+
+@import '../blocks/action-panel/action-panel';
+@import '../blocks/action-panel/__button/action-panel__button';
+@import '../blocks/action-panel/__button/_type/action-panel__button_type_next';
+@import '../blocks/action-panel/__button/_type/action-panel__button_type_prev';
+
+@import '../blocks/bicycles/bicycles';
+@import '../blocks/bicycles/__header/bicycles__header';
+@import '../blocks/bicycles/__title/bicycles__title';
+@import '../blocks/bicycles/__menu/bicycles__menu';
+@import '../blocks/bicycles/__menu-item/bicycles__menu-item';
+@import '../blocks/bicycles/__menu-item/_active/bicycles__menu-item_active';
+@import '../blocks/bicycles/__select/bicycles__select';
+@import '../blocks/bicycles/__option/bicycles__option';
+
+@import '../blocks/card-item/card-item';
+@import '../blocks/cards/cards';
+@import '../blocks/card-item/__img/card-item__img';
+@import '../blocks/card-item/__title/card-item__title';
+
+@import '../blocks/workout/workout';
+@import '../blocks/workout/__img/workout__img';
+@import '../blocks/workout/__title/workout__title';
+@import '../blocks/workout/__subtitle/workout__subtitle';
+@import '../blocks/workout/__applications/workout__applications';
+@import '../blocks/workout/__link/workout__link';
+
+
+@import '../blocks/footer/footer';
+@import '../blocks/footer/__title/footer__title';
+@import '../blocks/footer/__row/footer__row';
+@import '../blocks/footer/__signature/footer__signature';
+
+@import '../blocks/theme-control/theme-control';
+@import '../blocks/theme-control/_burger/theme-control_burger';
+@import '../blocks/theme-control/__img/theme-control__img';
+@import '../blocks/theme-control/__img/_theme/theme-control__img_theme_dark';
+@import '../blocks/theme-control/__slider/theme-control__slider';
+
+
+@import '../blocks/burger/burger';
+@import '../blocks/burger/__line/burger__line';
+@import '../blocks/dividing-line/dividing-line';
+@import '../blocks/logo/logo';
+
+@import '../blocks/ellipsis/ellipsis';
+@import '../blocks/ellipsis/__point/ellipsis__point';
+@import '../blocks/ellipsis/__point/_active/ellipsis__point_active';
+
+@import '../blocks/form/form';
+@import '../blocks/form/__input/form__input';
+@import '../blocks/form/__button/form__button';
+
+@import '../blocks/popup/popup';
+@import '../blocks/popup/__button/popup__button';
+@import '../blocks/popup/__data/popup__data';
+@import '../blocks/popup/_open/popup_open';
+
+
+
+
+
+
+

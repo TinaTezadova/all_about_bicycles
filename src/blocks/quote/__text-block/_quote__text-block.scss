@@ -1,0 +1,20 @@
+.quote__text-block {
+    width: 100%;
+    margin-left: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    grid-area: quote-text-block;
+}
+
+@media (max-width: 1300px) {
+    .quote__text-block {
+        margin-left: 40px;
+    }
+}
+
+@media (max-width: 550px) {
+    .quote__text-block {
+        margin: 40px 0 0 0;
+    }
+}
