@@ -1,0 +1,37 @@
+.description {
+    display: grid;
+    flex-direction: column;
+    max-width: 100%;
+    padding: 60px 0 60px 0;
+    grid-template-columns: minmax(5px, 120px) 1fr;
+    grid-template-areas:
+        ". title"
+        ". subtitle"
+        ". gallery"
+        ". action-panel";
+}
+
+@media (max-width: 1300px) {
+    .description {
+        grid-template-columns: minmax(5px, 120px) 1fr 5px;
+        grid-template-areas:
+            ". title ."
+            ". subtitle ."
+            ". gallery ."
+            ". action-panel .";
+    }
+}
+
+@media (max-width: 550px) {
+    .description {
+        display: grid;
+        grid-template-columns: 72% 28%;
+        grid-template-areas:
+            "dividing-line dividing-line"
+            "title action-panel"
+            "gallery gallery"
+            "subtitle subtitle";
+        padding: 0 18px 40px 18px;
+        box-sizing: border-box;
+    }
+}

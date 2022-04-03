@@ -1,0 +1,12 @@
+.workout__applications {
+    display: flex;
+    gap: 30px;
+    margin-top: 182px;
+    grid-area: workout-applications;
+}
+
+@media (max-width: 1300px) {
+    .workout__applications {
+        margin-top: 40px;
+    }
+}

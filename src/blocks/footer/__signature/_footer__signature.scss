@@ -1,0 +1,13 @@
+.footer__signature {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+    color: var(--color-grey2);
+}
+
+@media (max-width: 550px) {
+    .footer__signature {
+        font-weight: 500;
+    }
+}

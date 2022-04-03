@@ -1,0 +1,17 @@
+.card-item__img {
+    border-radius: 20px;
+    box-shadow: -20px 60px 220px rgba(0, 0, 0, 0.06);
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: #F4F4F4;
+}
+
+@media (max-width: 550px) {
+    .card-item__img {
+        width: 254px;
+        height: 254px;
+        box-shadow: none;
+        border-radius: 0;
+        padding: 0;
+    }
+}
