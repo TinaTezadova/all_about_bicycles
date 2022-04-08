@@ -347,17 +347,17 @@ p {
 
 @font-face {
   font-family: "Inter";
-  src: url("Inter/Inter-Regular.woff2") format("woff2"), url("Inter/Inter-Regular.woff") format("woff");
+  src: url("../vendor/fonts/Inter/Inter-Regular.woff2") format("woff2"), url("../vendor/fonts/Inter/Inter-Regular.woff") format("woff");
   font-weight: 400;
 }
 @font-face {
   font-family: "Inter";
-  src: url("Inter/Inter-Medium.woff2") format("woff2"), url("Inter/Inter-Medium.woff") format("woff");
+  src: url("../vendor/fonts/Inter/Inter-Medium.woff2") format("woff2"), url("../vendor/fonts/Inter/Inter-Medium.woff") format("woff");
   font-weight: 600;
 }
 @font-face {
   font-family: "Inter";
-  src: url("Inter/Inter-Black.woff2") format("woff2"), url("Inter/Inter-Black.woff") format("woff");
+  src: url("../vendor/fonts/Inter/Inter-Black.woff2") format("woff2"), url("../vendor/fonts/Inter/Inter-Black.woff") format("woff");
   font-weight: 900;
 }
 .root {
@@ -376,6 +376,7 @@ p {
   --slider-icon: url("../images/slider.svg");
   background-color: var(--bg-primary);
   transition: background-color 0.2s ease;
+  overflow-x: hidden;
 }
 
 .root_theme_dark {
@@ -427,7 +428,7 @@ p {
 
 } */
 .menu {
-  margin: 0;
+  margin: 0 86px 0 0;
   padding: 0;
   max-width: 100%;
 }
@@ -507,7 +508,7 @@ p {
 }
 
 .introduction__title {
-  margin: 0 0 50px 0;
+  margin: 60px 0 50px 0;
   font-style: normal;
   font-weight: 700;
   font-size: 55px;
@@ -564,6 +565,7 @@ p {
   transition: background-color 0.3s linear;
   text-decoration: none;
   grid-area: button;
+  box-sizing: border-box;
 }
 
 .introduction__button:hover {
@@ -669,7 +671,7 @@ p {
 
 @media (max-width: 1300px) {
   .quote__text-block {
-    margin-left: 40px;
+    margin-left: 10px;
   }
 }
 @media (max-width: 550px) {
@@ -1004,6 +1006,10 @@ p {
   cursor: pointer;
 }
 
+.bicycles__menu-item:last-child {
+  margin: 0;
+}
+
 .bicycles__menu-item:hover {
   opacity: 0.75;
 }
@@ -1125,7 +1131,7 @@ p {
 }
 .workout {
   max-width: 100%;
-  padding: 120px 0 60px 0;
+  padding: 150px 0 60px 0;
   display: grid;
   grid-template-columns: minmax(5px, 120px) 460px 1fr minmax(5px, 120px);
   grid-template-areas: ". workout-title workout-image ." ". workout-subtitle workout-image ." ". workout-applications workout-image .";
@@ -1238,7 +1244,7 @@ p {
 }
 .footer {
   max-width: 1440px;
-  padding: 60px 120px;
+  padding: 80px 120px 60px 120px;
   background-color: var(--color-grey3);
 }
 

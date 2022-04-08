@@ -14,4 +14,5 @@
     --slider-icon: url('../images/slider.svg');
     background-color: var(--bg-primary);
     transition: background-color 0.2s ease;
+    overflow-x: hidden;
 }

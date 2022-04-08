@@ -5,6 +5,10 @@
     cursor: pointer;
 }
 
+.bicycles__menu-item:last-child {
+    margin: 0;
+}
+
 .bicycles__menu-item:hover {
     opacity: 0.75;
 }
