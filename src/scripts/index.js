@@ -11,7 +11,8 @@ const subtitle = document.querySelector('.description__subtitle');
 const grevSubtitleText = 'Грэвел похож на шоссейный велосипед,но конструкция рамы немного отличается, и на нём стоят более широкие покрышки, всё для того чтобы проехать по лёгкому бездорожью.'
 const ttSubtitleText = 'ТТ — это велосипед для триатлона или раздельного старта, гооняют на таком велике только по равнинному асфальту, велик очень быстрые и аэродинамичный.'
 const hidewaySubtitleText = 'На шоссейном велосипеде можно ездить по асфальту на разных градиентах: будь то горы или равнины. Гонки проходят в командном пелотоне, но тренироваться можно и самостоятельно.'
-const select = document.querySelector('.bicycles__select')
+const select = document.querySelector('.bicycles__select');
+const menuLinks = document.querySelectorAll('.menu__link');
 let lastCurrentImgNumber = 2;
 let step = 1;
 
@@ -296,4 +297,7 @@ formInput.onblur = () => {
 formButton.addEventListener('click', handleFormButtonClick);
 
 burgerMenu.addEventListener('click', handleBurgerMenuClick);
-popupButton.addEventListener('click', handlePopupButtonClick)
+popupButton.addEventListener('click', handlePopupButtonClick);
+menuLinks.forEach((item) => {
+    item.addEventListener('click', handlePopupButtonClick);
+})

@@ -1,7 +1,7 @@
 @import '../../../mixins/font-style.scss';
 
 .introduction__title {
-    margin: 0 0 50px 0;
+    margin: 60px 0 50px 0;
     font-style: normal;
     @include font-style('bold');
     grid-area: title;
