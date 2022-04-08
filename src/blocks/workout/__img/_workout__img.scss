@@ -1,0 +1,19 @@
+.workout__img {
+    grid-area: workout-image;
+    width: 580px;
+    height: 460px;
+    justify-self: end;
+}
+
+@media (max-width: 1300px) {
+    .workout__img {
+        justify-self: start;
+    }
+}
+
+@media (max-width: 550px) {
+    .workout__img {
+        width: 284px;
+        height: 225px;
+    }
+}

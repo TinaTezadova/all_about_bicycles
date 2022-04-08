@@ -1,0 +1,12 @@
+ .bicycles {
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
+    padding: 60px 120px;
+ }
+
+ @media (max-width: 550px) {
+   .bicycles {
+       padding: 0 18px 40px 18px;
+   }
+}

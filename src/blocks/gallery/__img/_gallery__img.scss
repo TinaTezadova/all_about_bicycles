@@ -1,0 +1,27 @@
+.gallery__img {
+    max-width: 650px;
+    height: 400px;
+    margin-right: 40px;
+    display: block;
+}
+
+.gallery__img:last-child {
+    margin: 0;
+}
+
+@media (max-width: 1300px) {
+    .gallery__img {
+        margin: 0;
+    }
+}
+
+@media (max-width: 550px) {
+    .gallery__img {
+        width: 284px;
+        height: 175px;
+    }
+
+    .gallery__img:last-child {
+        display: none;
+    }
+}

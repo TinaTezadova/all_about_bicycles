@@ -1,0 +1,15 @@
+.introduction__img {
+    max-width: 610px;
+    min-width: 530px;
+    height: 836px;
+}
+
+@media (max-width: 550px) {
+    .introduction__img {
+        max-width: 254px;
+        min-width: 254px;
+        height: 348px;
+        margin-bottom: 40px;
+        padding: 0 18px 0 18px;
+    } 
+}

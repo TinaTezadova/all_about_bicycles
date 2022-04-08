@@ -1,0 +1,21 @@
+.bike-fix__img {
+    background-color: #F4F4F4;
+    width: 440px;
+    height: 300px;
+    position: sticky;
+    top: 0;
+    box-shadow: -20px 60px 220px rgba(0, 0, 0, 0.44);
+    border-radius: 20px;
+    box-sizing: border-box;
+    background-image: url('../images/bike.png');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+@media (max-width: 550px) {
+    .bike-fix__img {
+        width: 234px;
+        height: 160px;
+        background-image: url('../images/bikeMobile.png');
+    } 
+}

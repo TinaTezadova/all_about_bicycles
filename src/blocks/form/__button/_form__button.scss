@@ -1,0 +1,16 @@
+@import '../../../mixins/font-style.scss';
+
+.form__button {
+    display: none;
+    position: absolute;
+    width: 16px;
+    height: 28px;
+    top: 11px;
+    right: 22px;
+    border: none;
+    cursor: pointer;
+    font-style: normal;
+    @include font-style('base');
+    background: none;
+    color: var(--color-primary);
+}

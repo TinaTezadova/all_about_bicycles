@@ -1,0 +1,19 @@
+.quote {
+    display: grid;
+    max-width: 100%;
+    padding: 120px 0 60px 0;
+    grid-template-columns: minmax(5px, 120px) minmax(330px, 650px) minmax(230px, 470px);
+    grid-template-areas:
+        ". quote-img quote-text-block";
+}
+
+@media (max-width: 550px) {
+    .quote {
+        padding: 0 0 40px 0;
+        grid-template-columns: 18px 284px 18px;
+        grid-template-areas:
+        ". dividing-line ."
+        ". quote-img ."
+        ". quote-text-block .";
+    } 
+}

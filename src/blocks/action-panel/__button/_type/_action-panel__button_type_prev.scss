@@ -1,0 +1,9 @@
+.action-panel__button_type_prev {
+    background-image: var(--action-panel-btn-prev);
+}
+
+@media (max-width: 550px) {
+    .action-panel__button_type_prev {
+        background-size: 7px;
+    }
+}

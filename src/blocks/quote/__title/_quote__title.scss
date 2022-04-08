@@ -1,0 +1,23 @@
+@import '../../../mixins/reset-margin.scss';
+
+.quote__title {
+    @include reset-margin();
+    font-style: normal;
+    font-weight: 600;
+    font-size: 34px;
+    line-height: 44px;
+}
+
+@media (max-width: 1300px) {
+    .quote__title {
+        font-size: 25px;
+        line-height: 29px;
+        margin-block-end: 40px;
+    }
+}
+
+@media (max-width: 550px) {
+    .quote__title {
+        font-size: 23px;
+    }
+}

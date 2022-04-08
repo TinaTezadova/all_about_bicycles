@@ -1,0 +1,16 @@
+@import '../../../mixins/font-style.scss';
+@import '../../../mixins/reset-margin.scss';
+.bicycles__menu {
+    @include font-style('normal');
+    @include reset-margin();
+    list-style: none;
+    font-style: normal;
+    display: flex;
+    padding-inline-start: 0;
+}
+
+@media (max-width: 550px) {
+    .bicycles__menu {
+        display: none;
+    }
+}

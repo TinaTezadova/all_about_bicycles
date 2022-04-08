@@ -1,0 +1,13 @@
+.bike-fix {
+    height: 430px;
+    position: absolute;
+    top: 347px;
+    width: 100%;
+}
+
+@media (max-width: 550px) {
+    .bike-fix {
+        height: 234px;
+        top: 123px;
+    } 
+}

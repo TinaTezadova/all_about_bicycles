@@ -1,0 +1,19 @@
+@import '../variables.scss';
+
+@mixin font-size($type) {
+    @if $size == 'base' {
+        font-weight: 500;
+        font-size: $fontSizeS;
+        line-height: 28px;
+    }
+    @if $size == 'normal' {
+        font-weight: 400;
+        font-size: $fontSizeM;
+        line-height: 28px;
+    }
+    @if $size == 'bold' {
+        font-weight: 700;
+        font-size: $fontSizeL;
+        line-height: 60px;
+    }
+}

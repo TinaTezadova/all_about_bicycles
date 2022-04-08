@@ -1,0 +1,9 @@
+.action-panel__button_type_next {
+    background-image: var(--action-panel-btn-next);
+}
+
+@media (max-width: 550px) {
+    .action-panel__button_type_next {
+        background-size: 7px;
+    }
+}

@@ -1,0 +1,18 @@
+.root {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-family: "Inter", Arial, sans-serif;
+    --color-primary: #151515;
+    --bg-primary: #F4F4F4;
+    --color-black1: #222222;
+    --color-black2: #222222;
+    --color-grey1: #EBEBEB;
+    --color-grey2: #CFCFCF;
+    --color-grey3: #EFEFEF;
+    --action-panel-btn-next: url('../images/nexArrow.svg');
+    --action-panel-btn-prev: url('../images/prevArrow.svg');
+    --slider-icon: url('../images/slider.svg');
+    background-color: var(--bg-primary);
+    transition: background-color 0.2s ease;
+    overflow-x: hidden;
+}

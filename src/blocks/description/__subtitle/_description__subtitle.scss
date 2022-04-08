@@ -1,0 +1,17 @@
+@import '../../../mixins/font-style.scss';
+
+.description__subtitle {
+    width: 460px;
+    @include font-style('normal');
+    color: var(--color-black1);
+    opacity: 0.7;
+    grid-area: subtitle;
+}
+
+@media (max-width: 550px) {
+    .description__subtitle {
+        font-size: 12px;
+        line-height: 18px;
+        width: 100%;
+    }
+}

@@ -1,0 +1,9 @@
+.bicycles__menu-item_active {
+    font-weight: 600;
+    color: var(--color-primary);
+    opacity: 1;
+}
+
+.bicycles__menu-item_active:hover {
+    opacity: 0.6;
+}

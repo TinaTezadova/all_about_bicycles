@@ -1,0 +1,19 @@
+.green-ribbon {
+    background-image: url('../images/green_ribbon.svg');
+    position: absolute;
+    top: 344px;
+    width: 100px;
+    height: 40px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+@media (max-width: 550px) {
+    .green-ribbon {
+        width: 70px;
+        height: 28px;
+        background-size: 100%;
+        top: 133px;
+        
+    }
+}

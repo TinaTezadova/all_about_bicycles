@@ -1,0 +1,34 @@
+.workout {
+    max-width: 100%;
+    padding: 150px 0 60px 0;
+    display: grid;
+    grid-template-columns: minmax(5px, 120px) 460px 1fr minmax(5px, 120px);
+    grid-template-areas:
+        ". workout-title workout-image ."
+        ". workout-subtitle workout-image ."
+        ". workout-applications workout-image .";
+}
+
+@media (max-width: 1300px) {
+    .workout {
+        grid-template-areas:
+        ". workout-title . ."
+        ". workout-image workout-image ."
+        ". workout-subtitle . ."
+        ". workout-applications . .";
+    }
+}
+
+@media (max-width: 550px) {
+    .workout {
+        grid-template-columns: 18px 284px 18px;
+        grid-template-areas:
+        ". dividing-line ."
+        ". workout-title ."
+        ". workout-image ."
+        ". workout-subtitle ."
+        ". workout-applications .";
+        padding: 0 0 40px 0;
+/*         max-width: 320px; */
+    } 
+}

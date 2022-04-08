@@ -1,0 +1,29 @@
+.introduction__button {
+    background-color: #24B47E;
+    border-radius: 4px;
+    padding: 16px 10px 16px 10px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 18px;
+    text-align: center;
+    color: #FFFFFF;
+    border: none;
+    width: 180px;
+    cursor: pointer;
+    transition: background-color 0.3s linear;
+    text-decoration: none;
+    grid-area: button;
+    box-sizing: border-box;
+}
+
+.introduction__button:hover {
+    background-color: #319E75;
+}
+
+@media (max-width: 550px) {
+    .introduction__button {
+        width: 284px;
+        margin: 0 auto;
+    }
+}

@@ -1,0 +1,16 @@
+.burger {
+    display: none;
+    margin-right: 18px;
+    cursor: pointer;
+}
+
+.burger:hover {
+    opacity: 0.8;
+}
+
+@media (max-width: 550px) {
+    .burger {
+        display: flex;
+        flex-direction: column;
+    } 
+}
