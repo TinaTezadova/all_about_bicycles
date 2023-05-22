@@ -1,0 +1,25 @@
+.introduction {
+    max-width: 100%;
+    padding: 20px 0 0 0;
+    display: grid;
+    grid-template-columns: minmax(5px, 120px) 1fr minmax(530px, 810px);
+    grid-template-areas:
+        ". title right-block"
+        ". subtitle right-block"
+        ". button right-block"
+        ". signature-block right-block"
+        ". . right-block";
+}
+
+@media (max-width: 550px) {
+    .introduction {
+        grid-template-columns: 320px;
+        grid-template-areas:
+        "title"
+        "right-block"
+        "subtitle"
+        "button";
+        padding: 0 0 40px 0;
+        max-width: 320px;
+    } 
+}

@@ -1,0 +1,18 @@
+@import '../../../mixins/font-style.scss';
+
+.description__title {
+    font-style: normal;
+    @include font-style('bold');
+    margin-block-start: 0;
+    margin-block-end: 50px;
+    grid-area: title;
+}
+
+@media (max-width: 550px) {
+    .description__title {
+        font-size: 32px;
+        line-height: 40px;
+        margin-block-end: 0;
+        margin-block-start: 20px;
+    }
+}

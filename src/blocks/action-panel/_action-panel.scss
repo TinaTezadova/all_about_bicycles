@@ -1,0 +1,12 @@
+.action-panel {
+    max-width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    grid-area: action-panel;
+}
+
+@media (max-width: 550px) {
+    .action-panel {
+        margin-top: 20px;
+    }
+}

@@ -1,0 +1,12 @@
+.footer__row {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 86px;
+    align-items: center;
+}
+
+@media (max-width: 550px) {
+    .footer__row {
+        margin-top: 90px;
+    }
+}

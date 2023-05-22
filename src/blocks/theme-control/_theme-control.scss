@@ -1,0 +1,10 @@
+.theme-control {
+    display: flex;
+    gap: 22px;
+}
+
+@media (max-width: 550px) {
+    .footer .theme-control {
+        display: none;
+    }
+}

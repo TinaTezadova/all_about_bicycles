@@ -1,0 +1,19 @@
+.gallery {
+    display: flex;
+    margin: 80px 0 50px 0;
+    position: relative;
+    grid-area: gallery;
+}
+
+@media (max-width: 1300px) {
+    .gallery {
+        flex-direction: column;
+        gap: 10px;
+    }
+}
+
+@media (max-width: 550px) {
+    .gallery {
+        margin: 40px 0 40px 0;
+    }
+}

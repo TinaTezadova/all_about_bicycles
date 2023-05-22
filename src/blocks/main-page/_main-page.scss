@@ -1,0 +1,15 @@
+.main-page {
+    display: flex;
+    flex-direction: column;
+    max-width: 1440px;
+    color: var(--color-primary);
+    margin: 0 auto 0 auto;
+    position: relative;
+    scroll-behavior: smooth;
+}
+
+@media (max-width: 550px) {
+    .main-page {
+        max-width: 320px;
+    }
+}

@@ -1,0 +1,17 @@
+@import '../../../mixins/font-style.scss';
+@import '../../../mixins/reset-margin.scss';
+
+.bicycles__title {
+    font-style: normal;
+    @include font-style('bold');
+    @include reset-margin();
+}
+
+@media (max-width: 550px) {
+    .bicycles__title {
+        font-size: 32px;
+        line-height: 40px;
+        margin-block-end: 40px;
+        margin-block-start: 20px;
+    }
+}
